@@ -1,19 +1,19 @@
-.add-container{
+.tempertures-container{
     border: 1px solid red;
     border-radius: 0.5rem;
     padding: 0.5rem 0.5rem 0 0.5rem;
     margin-bottom: 0.5rem;
 }
-.add-title{
+.tempertures-title{
     color: darkblue;
 }
-.add-variables{
+.tempertures-variables{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
 }
-.add-display{
+.tempertures-display{
     display: flex;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }

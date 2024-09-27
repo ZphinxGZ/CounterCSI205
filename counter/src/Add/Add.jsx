@@ -20,8 +20,8 @@ function Add({aValue,bValue}) {
                 <span className="badge bg-secondary">B={b}</span>  
             </h2>
             <div className="add-variables">
-                <Variable name={'A'} value={a} setValue={setA}/>
-                <Variable name={'B'} value={b} setValue={setB}/>
+                <Variable type={'int'} name={'A'} value={a} setValue={setA}/>
+                <Variable type={'int'} name={'B'} value={b} setValue={setB}/>
             </div>
         </div>
      );
