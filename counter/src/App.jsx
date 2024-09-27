@@ -15,8 +15,8 @@ function App() {
       
       <h1>Hello React</h1>
       <Counter name={'John'} value={10}/>
-      {/* <Timer />
-      <Add aValue={10} bValue={20}/> */}
+      <Timer />
+      <Add aValue={10} bValue={20}/>
       <Tempertures initCelsius={30} name={'Kunakorn'}/>
     </div>
   )
