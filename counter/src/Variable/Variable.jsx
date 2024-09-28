@@ -12,4 +12,4 @@ function Variable({type, name, value, setValue}) {
      );
 }
 
-export default Variable;
+export default Variable
