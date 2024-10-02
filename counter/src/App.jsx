@@ -11,7 +11,7 @@ import Tempertures from './Tempertures/Tempertures';
 function App() {
 
   return (
-    <div className='border border-danger p-2 componentcontainer'>
+    <div className='border border-2 border-danger p-2 componentcontainer'>
       <h1 className='bg-dark text-light p-2 border border-danger rounded text-center'>React Component</h1>
 
       <div className='container contain01 text-center'>
