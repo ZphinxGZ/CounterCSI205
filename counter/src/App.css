@@ -1,7 +1,42 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  
   text-align: center;
+} */
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.contain01{
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.contain03{
+  width: 100%;
+}
+.componentcontainer{
+  width: 800px; 
+  justify-content: center;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  background: url('../public/img/lotus-theory-1-5120x2880-19026.jpg') no-repeat;
+}
+
+.footer-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid red;
+}
